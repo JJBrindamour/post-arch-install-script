@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 
 echo "IMPORTANT: THIS SCRIPT IS STILL IN DEVELEOPEMENT, DO NOT USE ON REAL HARDWARE!"
 read -p " Do you wish to continue? (y/N): " cont
