@@ -1,3 +1,5 @@
+#! /usr/bin/bash
+
 echo "IMPORTANT: THIS SCRIPT IS STILL IN DEVELEOPEMENT, DO NOT USE ON REAL HARDWARE! Do you wish to continue? (y/N)"
 read cont
 
