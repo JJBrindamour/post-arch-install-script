@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
-echo "IMPORTANT: THIS SCRIPT IS STILL IN DEVELEOPEMENT, DO NOT USE ON REAL HARDWARE! Do you wish to continue? (y/N)"
-read cont
+echo "IMPORTANT: THIS SCRIPT IS STILL IN DEVELEOPEMENT, DO NOT USE ON REAL HARDWARE!"
+read -p " Do you wish to continue? (y/N): " cont
 
 if [[ $cont == "y" || $cont == "Y"  ]]; then
 	sudo pacman -S xorg xorg-xinit picom firefox vim micro nano geany pcmanfm git alacritty bspwm sxhkd polybar htop neofetch nitrogen qt5ct dmenu lxappearance zsh breeze-gtk breeze-icons ttf-fira-code ttf-font-awesome networkmanager starship unzip exa base-devel
